@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ and Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="movil.css">
+    <!-- fontaweson -->
+    <script src="https://kit.fontawesome.com/9e309eb9ec.js" crossorigin="anonymous"></script>
+    <!-- scrip jequery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenido_fre">
+            <h1>FREQUENTLY ASK QUESTIONS</h1>
+            <div class="acorde ancho">
+                <div class="acor_titulo">
+                    <h2>Do you provide any scripts with your templates?</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <article class="acor_contenido">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                </article>
+            </div>
+            <div class="acorde ancho">
+                <div class="acor_titulo">
+                    <h2>What do I receive when I order a template?</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <article class="acor_contenido">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                </article>
+            </div>
+            <div class="acorde ancho">
+                <div class="acor_titulo">
+                    <h2>In what formats are your templates available?</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <article class="acor_contenido">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                </article>
+            </div>
+            <div class="acorde ancho">
+                <div class="acor_titulo">
+                    <h2>What am I allowed to do with the templates?</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <article class="acor_contenido">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate perferendis praesentium atque dicta rerum placeat ratione natus accusamus ullam deleniti iste expedita, nihil corrupti neque officia illum explicabo facilis illo!
+                    </p>
+                </article>
+            </div>
+        </div>
+         <!-- Skills Section -->
+         <div class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <div class="skill-label">Branding (90%)</div>
+                <div class="skill-bar">
+                    <div class="branding"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-label">Web Design (65%)</div>
+                <div class="skill-bar">
+                    <div class="web-design"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-label">Copywriting (100%)</div>
+                <div class="skill-bar">
+                    <div class="copywriting"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-label">Video Production (75%)</div>
+                <div class="skill-bar">
+                    <div class="video-production"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- funciones scrip -->
+     <script>
+        $(".acor_titulo").click(function(){
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+        });
+     </script>
+</body>
+</html>

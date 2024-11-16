@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    background-color: #f4f4f9;
+}
+
+/* Utility Classes */
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Container Styling */
+.contenedor {
+    display: flex; /* Organiza los hijos en fila */
+    gap: 20px; /* Espacio entre las secciones */
+    padding: 20px;
+}
+
+/* FAQ Section */
+.contenido_fre {
+    flex: 2; /* Ocupa más espacio que Skills */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenido_fre h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.acorde {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.acor_titulo {
+    padding: 15px 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acor_titulo h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.acor_titulo i {
+    font-size: 20px;
+    color: blue;
+}
+
+.acor_contenido {
+    display: none;
+    padding: 15px 20px;
+    color: #333;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.acor_contenido p {
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills {
+    flex: 1; /* Ocupa menos espacio que FAQ */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar div {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.branding {
+    width: 90%;
+    background-color: #007BFF;
+}
+
+.web-design {
+    width: 65%;
+    background-color: #28A745;
+}
+
+.copywriting {
+    width: 100%;
+    background-color: #FFC107;
+}
+
+.video-production {
+    width: 75%;
+    background-color: #DC3545;
+}
